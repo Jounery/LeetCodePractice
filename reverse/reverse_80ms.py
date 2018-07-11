@@ -1,6 +1,7 @@
 def reverse(x):
         L = []
         if abs(x) > 2147483647:
+            flag = 0
         elif x < 0:
             flag = -1
         else:
